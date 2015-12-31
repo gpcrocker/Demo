@@ -1,0 +1,11 @@
+{
+    "autoload":{
+        "psr-4":{
+            "Gpcrocker88\\Demo\\": "src/",
+            "Gpcrocker88\\Demo\\Tests\\" : "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^5.1"
+    }
+}
