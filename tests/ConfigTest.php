@@ -1,6 +1,6 @@
 <?php
 /**
- * @coversDefaultClass \Gpcrocker88\Config\ConfLoader
+ * @coversDefaultClass \Gpcrocker88\Util\ConfLoader
  */
 class ConfLoaderTest extends \PHPUnit_Framework_TestCase
 {
@@ -8,7 +8,7 @@ class ConfLoaderTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->config = new \Gpcrocker88\Config\ConfLoader();
+        $this->config = new \Gpcrocker88\Util\ConfLoader();
     }
 
     /**
@@ -26,9 +26,9 @@ class ConfLoaderTest extends \PHPUnit_Framework_TestCase
         $this->assertArrayHasKey('collation', $dbInfo);
     }
 
-    public function testConfigFileExists()
+    public function testConfFileExists()
     {
-        $this->assertFileExists(\Gpcrocker88\Config\ConfLoader::CONF_FNAME);
+        $this->assertFileExists(\Gpcrocker88\Util\ConfLoader::CONF_FNAME);
     }
 }
 ?>

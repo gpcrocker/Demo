@@ -3,7 +3,7 @@
         "psr-4":{
             "Gpcrocker88\\Demo\\": "src/",
             "Gpcrocker88\\Demo\\Tests\\" : "tests/",
-            "Gpcrocker88\\Config\\": "config/"
+            "Gpcrocker88\\Util\\": "util/"
         }
     },
     "require": {

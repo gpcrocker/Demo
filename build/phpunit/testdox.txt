@@ -1,6 +1,6 @@
 ConfLoader
  [x] Get db info
- [x] Config file exists
+ [x] Conf file exists
 
 Hello
  [x] World

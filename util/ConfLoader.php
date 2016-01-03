@@ -1,10 +1,10 @@
 <?php
-namespace Gpcrocker88\Config;
+namespace Gpcrocker88\Util;
 
 
 class ConfLoader
 {
-    const CONF_FNAME  = __DIR__."/config.ini";
+    const CONF_FNAME  = __DIR__."/../config.ini";
     private $conf;
 
     /**
