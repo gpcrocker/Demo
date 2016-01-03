@@ -4,7 +4,7 @@ namespace Gpcrocker88\Config;
 
 class ConfLoader
 {
-    const CONF_FNAME  = "conf.ini";
+    const CONF_FNAME  = __DIR__."/config.ini";
     private $conf;
 
     /**
